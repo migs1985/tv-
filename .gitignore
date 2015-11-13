@@ -14,7 +14,7 @@ http://video-live.iol.pt:1935/live_tvi24/smil:LIVE_TVI24/playlist.m3u8
 http://62.210.82.241:1935/liverepeat/TVIReality24/live.m3u8 
 
 #EXTINF:-1,SIC
- http://brodcast-2.zuneserver.com:10007/live/jose/S5mmy0qZdM/5.ts
+ http://brodcast-2.zuneserver.com:10007/live/jose/S5mmy0qZdM/5.m3u8
 
 #EXTINF:-1 tvg-id="sic.pt" tvg-logo="https://raw.githubusercontent.com/adrianoafonso/myIPTVchannels/master/Logos/SIC.png",SIC
 http://213.13.26.11:1935/live/sic/cookiemonster.m3u8 
