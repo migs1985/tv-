@@ -1,16 +1,7 @@
 #EXTM3U
-#EXTINF:-1 , SIC 
-http://213.13.26.11:1935/live/sic/inspiration.m3u8 
-#EXTINF:-1 , SIC 
-http://213.13.26.11:1935/live/sic/chunklist.m3u8 
+
 #EXTINF:-1 , SIC 
 http://88.157.194.246/live/ramdisk/zsic/HLS/zsic.m3u8 
-#EXTINF:-1 , SIC NOTÍCIAS [/COLOR] 
-http://213.13.26.11:1935/live/sicnoticias/inspiration.m3u8 
-#EXTINF:-1 ,SIC NOTÍCIAS [/COLOR] rtmp 
-rtmp://213.13.26.42/live playpath=sicnoticias swfUrl=http://imgs.sapo.pt/sapovideo/swf/flvplayer-sapo.swf?live=rtmp%3A%2F%2F%7B%24hostname%7D%2Flive%2Fsicnoticias&file=http%3A%2F%2Frd3.videos.sapo.pt%2Fsyqqba8JjeKyS8WFMA1H%2Fmov%2F24&autoStart=1 live=1 
-#EXTINF:-1 , SIC NOTÍCIAS [/COLOR] rtmp 
-rtmp://213.13.26.11/live playpath=sicnoticias swfUrl=http://js.sapo.pt/Projects/Video/150129_PATCHED_R2/flash/videojs.swf live=1 pageUrl=http://rd.videos.sapo.cv/playhtml?file=http://rd.videos.sapo.cv/o7sf94LpzBDc94GY3N4i/mov/24 
 #EXTINF:-1,TVI [/COLOR] 
 http://video-live.iol.pt:1935/live_tvi/smil:LIVE_TVI/chunklist_w787106714_b814000.m3u8
 #EXTINF:-1 ,TVI [/COLOR] 
@@ -21,48 +12,23 @@ http://88.157.194.246/live/ramdisk/ztvi/HLS/ztvi.m3u8
 http://video-live.iol.pt:1935/live_tvi24/smil:LIVE_TVI24/playlist.m3u8 
 #EXTINF:-1, Reality - A QUINTA 
 http://62.210.82.241:1935/liverepeat/TVIReality24/live.m3u8 
-#EXTINF:-1, Reality - A QUINTA (by Pedro Neves)
-rtmp://62.210.88.232:1935/liverepeat?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMTkvMjAxNSA2OjAxOjM0IFBNJmhhc2hfdmFsdWU9b0xSanp.WejhRMGUvaVRoRVJ5djJidz09JnZhbGlkbWludXRlcz0zMDA=/ playpath=TVIReality24 swfUrl=http://direct-stream.biz/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://direct-stream.biz/embednews.php?c=TVIReality24 
 
-#EXTINF:-1,SIC N
-http://213.13.26.6:1935/live/_definst_/sicnoticias/korea_w1241934823.m3u8
 #EXTINF:-1,SIC
-http://213.13.26.11:1935/live/_definst_/sic/korea.m3u8
-#EXTINF:0 tvg-id="SIC" tvg-logo="SIC.png"  group-title="Portugal", SIC
-http://213.13.26.7:1936/live/_definst_/sic/playlist.m3u8
-#EXTINF:-1 tvg-id="rtp1.pt" tvg-logo="https://raw.githubusercontent.com/adrianoafonso/myIPTVchannels/master/Logos/RTP%201.png",RTP 1 
-http://88.157.194.246/live/ramdisk/zrtp1/HLS/zrtp1.m3u8 
-#EXTINF:-1 tvg-id="rtp2.pt" tvg-logo="https://raw.githubusercontent.com/adrianoafonso/myIPTVchannels/master/Logos/RTP%202.png",RTP 2 
-http://88.157.194.246/live/ramdisk/zrtp2/HLS/zrtp2.m3u8 
+ http://brodcast-2.zuneserver.com:10007/live/jose/S5mmy0qZdM/5.ts
+
 #EXTINF:-1 tvg-id="sic.pt" tvg-logo="https://raw.githubusercontent.com/adrianoafonso/myIPTVchannels/master/Logos/SIC.png",SIC
 http://213.13.26.11:1935/live/sic/cookiemonster.m3u8 
-#EXTINF:-1 tvg-id="sic.pt" tvg-logo="https://raw.githubusercontent.com/adrianoafonso/myIPTVchannels/master/Logos/SIC.png",SIC http://88.157.194.246/live/ramdisk/zsic/HLS/zsic.m3u8 
-#EXTINF:-1 tvg-id="tvi.pt" tvg-logo="https://raw.githubusercontent.com/adrianoafonso/myIPTVchannels/master/Logos/TVI.png",TVI http://video-live.iol.pt:1935/live_tvi/smil:LIVE_TVI/playlist.m3u8 
-#EXTINF:-1 tvg-id="tvi.pt" tvg-logo="https://raw.githubusercontent.com/adrianoafonso/myIPTVchannels/master/Logos/TVI.png",TVI http://88.157.194.246/live/ramdisk/ztvi/HLS/ztvi.m3u8 
-#EXTINF:-1,Sic Noticias http://213.13.26.12:1935/live/sicnoticias/cookiemonster.m3u8 
-#EXTINF:-1,Economico TV 
-rtmp://213.13.26.11/live/etv_direto  
-#EXTINF:-1,Economico TV 
-http://213.13.26.12:1935/live/etv_direto/cookiemonster.m3u8 
-#EXTINF:-1,AR TV Parlamento
-rtsp://www.canal.parlamento.pt/Live 
+#EXTINF:-1 tvg-id="sic.pt" tvg-logo="https://raw.githubusercontent.com/adrianoafonso/myIPTVchannels/master/Logos/SIC.png",SIC 
+http://88.157.194.246/live/ramdisk/zsic/HLS/zsic.m3u8 
+#EXTINF:-1 tvg-id="tvi.pt" tvg-logo="https://raw.githubusercontent.com/adrianoafonso/myIPTVchannels/master/Logos/TVI.png",TVI
+http://video-live.iol.pt:1935/live_tvi/smil:LIVE_TVI/playlist.m3u8 
+#EXTINF:-1 tvg-id="tvi.pt" tvg-logo="https://raw.githubusercontent.com/adrianoafonso/myIPTVchannels/master/Logos/TVI.png",TVI 
+http://88.157.194.246/live/ramdisk/ztvi/HLS/ztvi.m3u8 
+#EXTINF:-1,Sic Noticias 
+http://213.13.26.12:1935/live/sicnoticias/cookiemonster.m3u8 
+
 #EXTINF:-1,Cancao Nova 
 http://cnhls-lh.akamaihd.net/i/cnhls_1@147036/master.m3u8 
-#EXTINF:-1,Capelinha Santuario Fatima 
-http://213.13.26.12:1935/live/santuario.stream/PAZ.m3u8 
-#EXTINF:-1,TCV 
-http://213.13.26.12:1935/live/rtc_teste/cookiemonster.m3u8 
-#EXTINF:-1,Baby TV 
-http://178.253.194.68:1935/liveloworigin/babytv.stream/playlist.m3u8 
-#EXTINF:-1,Disney Junior BR 
-http://37.203.209.34:443/mobile/flash42sd/IPTVGLOBAL.m3u8
-#EXTINF:-1 tvg-name="sic.pt" audio-track="pt" tvg-logo="http://www.thelogodb.com/images/media/logo/uqqyxw1436843634.png" group title="Portugal",SIC (1) [SD] 
-http://213.13.26.11:1935/live/sic/livestream.m3u8 
-#EXTINF:-1 tvg-name="sicnoticias.pt" audio-track="pt" tvg-logo="http://www.thelogodb.com/images/media/logo/wtpyqt1436899156.png" group title="Portugal",SIC Notícias (1) [SD] 
-http://213.13.26.11:1935/live/sicnoticias/livestream.m3u8 
+
 #EXTINF:-1 tvg-id="TVI24.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/wtysqy1436898428.png" group title="Portugal",TVI24 [FSD]
 http://video-live.iol.pt:1935/live_tvi24/smil:LIVE_TVI24/playlist.m3u8 
-#EXTINF:0 tvg-id="CMTV.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/uvqwuu1436843714.png" audio-track="pt" group title="Portugal",CMTV [SD] 
-http://portal.rapidiptv.com:8080/live/mondi/mondi/3236.m3u8 
-#EXTINF:-1 tvg-id="Euronews.nws" tvg-logo="http://www.thelogodb.com/images/media/logo/tuuryw1433426397.png" group title="Portugal",Euronews [SD]
-http://fr-par-iphone-1.cdn.hexaglobe.net/streaming/euronews_ewns/ipad_pt.m3u8
